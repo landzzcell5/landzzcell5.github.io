@@ -276,13 +276,13 @@ img { max-width: 100%; display: block; }
 /* ---------- Skills ---------- */
 .skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
 }
 .skill-group h3 {
-  font-family: var(--font-mono);
+  font-family: var(--font-ja);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 16px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--line);
@@ -293,6 +293,11 @@ img { max-width: 100%; display: block; }
   padding: 4px 14px;
   border: 1px solid var(--line);
   border-radius: 999px;
+}
+/* 知ったかぶり枠：点線でちょっと自信なさげに */
+.tags-pretend li {
+  border-style: dashed;
+  color: var(--muted);
 }
 
 /* ---------- News ---------- */
