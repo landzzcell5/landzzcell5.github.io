@@ -295,10 +295,12 @@ img { max-width: 100%; display: block; }
   border-radius: 999px;
 }
 /* 知ったかぶり枠：点線でちょっと自信なさげに */
-.tags-pretend li {
+.tags-pretend li,
+.tags li.pretend {
   border-style: dashed;
   color: var(--muted);
 }
+.tags small { font-size: 11px; }
 
 /* ---------- News ---------- */
 .news li {
